@@ -172,10 +172,6 @@ npx skills add Atipico1/awesome-chatgpt-sites --skill awesome-sites
 
 </details>
 
-## 현재 상태
-
-스펙은 작성과 린트(`python3 scripts/lint-specs.py`)까지 끝났습니다. 아직 모든 스펙을 실제 Site로 끝까지 만들어 보지는 않았습니다. 각 스펙을 탄탄한 초안으로 보시고, 실제로 만들어 본 결과 보고와 PR이 가장 큰 도움이 됩니다.
-
 ## 자주 묻는 질문
 
 <details>

@@ -172,10 +172,6 @@ Copy the whole `awesome-sites` folder. The skill reads files from its own `refer
 
 </details>
 
-## Status
-
-Specs are written and linted (`python3 scripts/lint-specs.py`). They have not all been built end to end on a live Site yet. Treat every spec as a strong first draft; reports and PRs from real builds are the most useful contribution.
-
 ## FAQ
 
 <details>
