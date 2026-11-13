@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/apps-31-10A37F?style=flat-square" alt="31 apps" />
   <img src="https://img.shields.io/badge/runs_on-ChatGPT_Sites-24292f?style=flat-square" alt="Runs on ChatGPT Sites" />
   <img src="https://img.shields.io/badge/APIs-free_tiers-10A37F?style=flat-square" alt="Free-tier APIs" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-24292f?style=flat-square" alt="MIT License" /></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs welcome" /></a>
 </p>
 
@@ -219,3 +220,7 @@ Sitesのホスティングは2026-12-31まで無料です。2027-01-01以降、�
 - [プラットフォームの基本ルール](skills/awesome-sites/references/shared/baseline.md)
 - [公開範囲・ログイン・カスタムドメイン](skills/awesome-sites/references/shared/access-and-domains.md)
 - [無料API利用量の保護](skills/awesome-sites/references/shared/usage-guard.md)
+
+## ライセンス
+
+[MIT](LICENSE)

@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/apps-31-10A37F?style=flat-square" alt="31 apps" />
   <img src="https://img.shields.io/badge/runs_on-ChatGPT_Sites-24292f?style=flat-square" alt="Runs on ChatGPT Sites" />
   <img src="https://img.shields.io/badge/APIs-free_tiers-10A37F?style=flat-square" alt="Free-tier APIs" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-24292f?style=flat-square" alt="MIT License" /></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs welcome" /></a>
 </p>
 
@@ -219,3 +220,7 @@ Sites 호스팅은 2026-12-31까지 무료입니다. 2027-01-01부터 데이터�
 - [플랫폼 기본 규칙](skills/awesome-sites/references/shared/baseline.md)
 - [공개 범위·로그인·커스텀 도메인](skills/awesome-sites/references/shared/access-and-domains.md)
 - [무료 API 사용량 보호](skills/awesome-sites/references/shared/usage-guard.md)
+
+## 라이선스
+
+[MIT](LICENSE)

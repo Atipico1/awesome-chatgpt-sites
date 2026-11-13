@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/apps-31-10A37F?style=flat-square" alt="31 apps" />
   <img src="https://img.shields.io/badge/runs_on-ChatGPT_Sites-24292f?style=flat-square" alt="Runs on ChatGPT Sites" />
   <img src="https://img.shields.io/badge/APIs-free_tiers-10A37F?style=flat-square" alt="Free-tier APIs" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-24292f?style=flat-square" alt="MIT License" /></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs welcome" /></a>
 </p>
 
@@ -219,3 +220,7 @@ Sites 托管在 2026-12-31 前免费。2027-01-01 起，带数据库的网站在
 - [平台基础规则](skills/awesome-sites/references/shared/baseline.md)
 - [受众、登录与自定义域名](skills/awesome-sites/references/shared/access-and-domains.md)
 - [免费 API 用量保护](skills/awesome-sites/references/shared/usage-guard.md)
+
+## 许可证
+
+[MIT](LICENSE)
