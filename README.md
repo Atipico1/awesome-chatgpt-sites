@@ -53,63 +53,63 @@ Describe the tool in your own words. For example:
 
 ## The apps
 
-31 specs. Each is one file in [`skills/awesome-sites/references/apps/`](skills/awesome-sites/references/apps/). "Needs" lists the keys beyond Sites itself; free tiers cover all of them.
+31 specs. Each is one file in [`skills/awesome-sites/references/apps/`](skills/awesome-sites/references/apps/). "Needs" lists the keys beyond Sites itself; free tiers cover all of them. "Replaces" and "Paid price" show the paid products an app stands in for and what they cost per month (USD unless noted; checked 2026-11-13; some prices are billed annually). A spec covers the basic end of each product, not all of it. What the paid products have that the specs lack, and where a free alternative already exists, is in [`pricing.md`](skills/awesome-sites/references/shared/pricing.md).
 
 ### Customer-facing tools
 
-| App | What it does | Needs |
-| --- | --- | --- |
-| [feedback-board](skills/awesome-sites/references/apps/feedback-board.md) | Customers post and vote on feature requests; public roadmap | — |
-| [waitlist](skills/awesome-sites/references/apps/waitlist.md) | Pre-launch email signups; referral links move people up the list | — |
-| [changelog](skills/awesome-sites/references/apps/changelog.md) | Release-notes page with RSS and an embeddable widget | — |
-| [form-backend](skills/awesome-sites/references/apps/form-backend.md) | Form builder and inbox; accepts posts from any HTML form | — |
-| [testimonials](skills/awesome-sites/references/apps/testimonials.md) | Collect customer testimonials and show a wall of love | — |
-| [booking](skills/awesome-sites/references/apps/booking.md) | Set weekly availability; people pick a time (no calendar sync) | — |
-| [link-shortener](skills/awesome-sites/references/apps/link-shortener.md) | Short links with click stats and QR codes | — |
-| [link-in-bio](skills/awesome-sites/references/apps/link-in-bio.md) | Public page of links with themes and click stats | — |
-| [email-signature](skills/awesome-sites/references/apps/email-signature.md) | Copy-paste HTML email signatures, with a team mode | — |
+| App | What it does | Replaces | Paid price | Needs |
+| --- | --- | --- | --- | --- |
+| [feedback-board](skills/awesome-sites/references/apps/feedback-board.md) | Customers post and vote on feature requests; public roadmap | Canny, Upvoty, Nolt | $15–79/mo | — |
+| [waitlist](skills/awesome-sites/references/apps/waitlist.md) | Pre-launch email signups; referral links move people up the list | Waitlister, Viral Loops, Prefinery | $19–39/mo | — |
+| [changelog](skills/awesome-sites/references/apps/changelog.md) | Release-notes page with RSS and an embeddable widget | Beamer, AnnounceKit | $25–59/mo | — |
+| [form-backend](skills/awesome-sites/references/apps/form-backend.md) | Form builder and inbox; accepts posts from any HTML form | Formspree, Basin, Getform | $12.50–19/mo | — |
+| [testimonials](skills/awesome-sites/references/apps/testimonials.md) | Collect customer testimonials and show a wall of love | Testimonial.to, Senja | $25–29/mo | — |
+| [booking](skills/awesome-sites/references/apps/booking.md) | Set weekly availability; people pick a time (no calendar sync) | Calendly, SavvyCal, Cal.com | $10–12/user/mo | — |
+| [link-shortener](skills/awesome-sites/references/apps/link-shortener.md) | Short links with click stats and QR codes | Short.io, Bitly | $5–18/mo (Short.io) | — |
+| [link-in-bio](skills/awesome-sites/references/apps/link-in-bio.md) | Public page of links with themes and click stats | Beacons, Linktree | $10/mo (Beacons) | — |
+| [email-signature](skills/awesome-sites/references/apps/email-signature.md) | Copy-paste HTML email signatures, with a team mode | WiseStamp, Exclaimer | $19/mo / $0.90/user/mo | — |
 
 ### Files and payments
 
-| App | What it does | Needs |
-| --- | --- | --- |
-| [file-transfer](skills/awesome-sites/references/apps/file-transfer.md) | Upload files, share an expiring link with optional password | — |
-| [doc-sharing](skills/awesome-sites/references/apps/doc-sharing.md) | Trackable PDF links: who opened it and time per page | — |
-| [invoicing](skills/awesome-sites/references/apps/invoicing.md) | Invoices with a public pay page and Stripe Checkout | Stripe |
-| [digital-storefront](skills/awesome-sites/references/apps/digital-storefront.md) | Sell downloads (PDFs, templates) with Stripe Checkout | Stripe |
+| App | What it does | Replaces | Paid price | Needs |
+| --- | --- | --- | --- | --- |
+| [file-transfer](skills/awesome-sites/references/apps/file-transfer.md) | Upload files, share an expiring link with optional password | WeTransfer, Dropbox Transfer | $8–23/mo | — |
+| [doc-sharing](skills/awesome-sites/references/apps/doc-sharing.md) | Trackable PDF links: who opened it and time per page | DocSend, Papermark | $10–45/user/mo / €29–79/mo | — |
+| [invoicing](skills/awesome-sites/references/apps/invoicing.md) | Invoices with a public pay page and Stripe Checkout | Invoice Ninja, FreshBooks, Zoho Invoice | Free–$23/mo | Stripe |
+| [digital-storefront](skills/awesome-sites/references/apps/digital-storefront.md) | Sell downloads (PDFs, templates) with Stripe Checkout | Gumroad, Lemon Squeezy, Payhip | Free–$29/mo + 0–10% fees | Stripe |
 
 ### AI and web-data tools
 
-| App | What it does | Needs |
-| --- | --- | --- |
-| [formula-ai](skills/awesome-sites/references/apps/formula-ai.md) | Plain words to Excel/Sheets formulas, SQL, or regex | LLM |
-| [research-briefs](skills/awesome-sites/references/apps/research-briefs.md) | Searches the web and writes a cited report | Tavily + LLM |
-| [csv-enricher](skills/awesome-sites/references/apps/csv-enricher.md) | Fills new CSV columns from web search | Tavily + LLM |
-| [bookmarks-mcp](skills/awesome-sites/references/apps/bookmarks-mcp.md) | Bookmarks with AI summaries; searchable from ChatGPT via MCP | — (LLM optional) |
-| [meeting-notes](skills/awesome-sites/references/apps/meeting-notes.md) | Audio to transcript, summary, and action items | Groq + LLM |
-| [resume-tailor](skills/awesome-sites/references/apps/resume-tailor.md) | Tailors a resume and cover letter to a job posting | LLM |
-| [docs-chatbot](skills/awesome-sites/references/apps/docs-chatbot.md) | Support chatbot trained on your docs, embeddable | LLM |
-| [seo-audit](skills/awesome-sites/references/apps/seo-audit.md) | PageSpeed scores and an on-page SEO checklist | PageSpeed key |
-| [receipt-tracker](skills/awesome-sites/references/apps/receipt-tracker.md) | Receipt photos into an expense log with CSV export | Gemini key |
-| [feedback-analyzer](skills/awesome-sites/references/apps/feedback-analyzer.md) | Groups reviews and survey answers into themes with sentiment | LLM |
-| [snippet-library](skills/awesome-sites/references/apps/snippet-library.md) | Reusable text and prompts with variables, MCP access | — (LLM optional) |
-| [review-reply-drafter](skills/awesome-sites/references/apps/review-reply-drafter.md) | Paste a customer review, get three reply drafts (no auto-posting) | LLM |
+| App | What it does | Replaces | Paid price | Needs |
+| --- | --- | --- | --- | --- |
+| [formula-ai](skills/awesome-sites/references/apps/formula-ai.md) | Plain words to Excel/Sheets formulas, SQL, or regex | Better Analyst, Ajelix | $20–39/mo | LLM |
+| [research-briefs](skills/awesome-sites/references/apps/research-briefs.md) | Searches the web and writes a cited report | Perplexity, Elicit | $17–49/mo | Tavily + LLM |
+| [csv-enricher](skills/awesome-sites/references/apps/csv-enricher.md) | Fills new CSV columns from web search | Clay, Databar | $60–99/mo | Tavily + LLM |
+| [bookmarks-mcp](skills/awesome-sites/references/apps/bookmarks-mcp.md) | Bookmarks with AI summaries; searchable from ChatGPT via MCP | Raindrop, Readwise | $3–10/mo | — (LLM optional) |
+| [meeting-notes](skills/awesome-sites/references/apps/meeting-notes.md) | Audio to transcript, summary, and action items | Otter, Fireflies, Fathom | $17–20/mo | Groq + LLM |
+| [resume-tailor](skills/awesome-sites/references/apps/resume-tailor.md) | Tailors a resume and cover letter to a job posting | Teal, Rezi, Jobscan | $29–50/mo | LLM |
+| [docs-chatbot](skills/awesome-sites/references/apps/docs-chatbot.md) | Support chatbot trained on your docs, embeddable | Chatbase, CustomGPT | $99–150/mo | LLM |
+| [seo-audit](skills/awesome-sites/references/apps/seo-audit.md) | PageSpeed scores and an on-page SEO checklist | Semrush, SE Ranking, Ubersuggest | $29–139/mo | PageSpeed key |
+| [receipt-tracker](skills/awesome-sites/references/apps/receipt-tracker.md) | Receipt photos into an expense log with CSV export | Shoeboxed, Zoho Expense | $4–9/mo | Gemini key |
+| [feedback-analyzer](skills/awesome-sites/references/apps/feedback-analyzer.md) | Groups reviews and survey answers into themes with sentiment | Guess, Dovetail | $99–400/mo | LLM |
+| [snippet-library](skills/awesome-sites/references/apps/snippet-library.md) | Reusable text and prompts with variables, MCP access | TextExpander, Text Blaze | $3–5/mo | — (LLM optional) |
+| [review-reply-drafter](skills/awesome-sites/references/apps/review-reply-drafter.md) | Paste a customer review, get three reply drafts (no auto-posting) | Responsly, NiceJob | $10–135/mo | LLM |
 
 ### Korean-market tools (Korean UI)
 
-| App | What it does | Needs |
-| --- | --- | --- |
-| [group-order-ledger](skills/awesome-sites/references/apps/group-order-ledger.md) | KakaoTalk group-order chat to an order table; deposit matching (records only) | LLM |
-| [order-sheet-converter](skills/awesome-sites/references/apps/order-sheet-converter.md) | Merge marketplace order sheets into a courier upload file, in the browser | — |
-| [campaign-tracker](skills/awesome-sites/references/apps/campaign-tracker.md) | Sponsored-campaign deadlines with a calendar feed (체험단, brand deals) | — (LLM optional) |
-| [club-ledger](skills/awesome-sites/references/apps/club-ledger.md) | Dues, attendance, fines, ranking for clubs; records only, never handles money | — |
+| App | What it does | Replaces | Paid price | Needs |
+| --- | --- | --- | --- | --- |
+| [group-order-ledger](skills/awesome-sites/references/apps/group-order-ledger.md) | KakaoTalk group-order chat to an order table; deposit matching (records only) | 다골라, 톡장부 | 9,900–49,000원/mo | LLM |
+| [order-sheet-converter](skills/awesome-sites/references/apps/order-sheet-converter.md) | Merge marketplace order sheets into a courier upload file, in the browser | EXCLOAD | 4,000원/mo | — |
+| [campaign-tracker](skills/awesome-sites/references/apps/campaign-tracker.md) | Sponsored-campaign deadlines with a calendar feed (체험단, brand deals) | 콜라보매니저 | Free | — (LLM optional) |
+| [club-ledger](skills/awesome-sites/references/apps/club-ledger.md) | Dues, attendance, fines, ranking for clubs; records only, never handles money | 총무의가계부 | 3,600원/mo | — |
 
 ### Team and agent tools
 
-| App | What it does | Needs |
-| --- | --- | --- |
-| [issue-tracker](skills/awesome-sites/references/apps/issue-tracker.md) | Linear-style issue board with MCP tools | — |
-| [memory-mcp](skills/awesome-sites/references/apps/memory-mcp.md) | Personal memory ChatGPT and Codex can read and write over MCP | — |
+| App | What it does | Replaces | Paid price | Needs |
+| --- | --- | --- | --- | --- |
+| [issue-tracker](skills/awesome-sites/references/apps/issue-tracker.md) | Linear-style issue board with MCP tools | Linear, Shortcut, Plane | $8–10/user/mo | — |
+| [memory-mcp](skills/awesome-sites/references/apps/memory-mcp.md) | Personal memory ChatGPT and Codex can read and write over MCP | Mem, Supermemory | $9–19/mo | — |
 
 ## What Sites gives you, and what you bring
 

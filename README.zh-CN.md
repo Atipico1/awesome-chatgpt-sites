@@ -53,63 +53,63 @@ Install the "awesome-sites" skill from https://github.com/Atipico1/awesome-chatg
 
 ## 应用列表
 
-共 31 个规格，每个是 [`skills/awesome-sites/references/apps/`](skills/awesome-sites/references/apps/) 中的一个文件。"所需密钥"指除 Sites 以外需要的密钥，都可以从免费额度开始。
+共 31 个规格，每个是 [`skills/awesome-sites/references/apps/`](skills/awesome-sites/references/apps/) 中的一个文件。"所需密钥"指除 Sites 以外需要的密钥，都可以从免费额度开始。 "替代的产品"和"付费月费"列出该应用可替代的付费产品及其月费（除特别注明外为美元，2026-11-13 核对，部分按年付折算）。规格只覆盖各产品的基础部分。付费产品有而规格没有的功能，以及已有免费替代的情况，见 [`pricing.md`](skills/awesome-sites/references/shared/pricing.md)。
 
 ### 面向客户的工具
 
-| 应用 | 功能 | 所需密钥 |
-| --- | --- | --- |
-| [feedback-board](skills/awesome-sites/references/apps/feedback-board.md) | 客户提交并投票功能需求的看板，附公开路线图 | — |
-| [waitlist](skills/awesome-sites/references/apps/waitlist.md) | 上线前邮箱候补名单，邀请链接可提升排名 | — |
-| [changelog](skills/awesome-sites/references/apps/changelog.md) | 带 RSS 和嵌入组件的更新日志页 | — |
-| [form-backend](skills/awesome-sites/references/apps/form-backend.md) | 表单构建器与收件箱，可接收任意 HTML 表单提交 | — |
-| [testimonials](skills/awesome-sites/references/apps/testimonials.md) | 收集客户评价并展示"好评墙" | — |
-| [booking](skills/awesome-sites/references/apps/booking.md) | 设置每周可约时间，对方自行选时间预约（无日历同步） | — |
-| [link-shortener](skills/awesome-sites/references/apps/link-shortener.md) | 带点击统计和二维码的短链接 | — |
-| [link-in-bio](skills/awesome-sites/references/apps/link-in-bio.md) | 带主题和点击统计的链接聚合页 | — |
-| [email-signature](skills/awesome-sites/references/apps/email-signature.md) | 可复制粘贴的 HTML 邮件签名生成器，含团队模式 | — |
+| 应用 | 功能 | 替代的产品 | 付费月费 | 所需密钥 |
+| --- | --- | --- | --- | --- |
+| [feedback-board](skills/awesome-sites/references/apps/feedback-board.md) | 客户提交并投票功能需求的看板，附公开路线图 | Canny, Upvoty, Nolt | $15–79/月 | — |
+| [waitlist](skills/awesome-sites/references/apps/waitlist.md) | 上线前邮箱候补名单，邀请链接可提升排名 | Waitlister, Viral Loops, Prefinery | $19–39/月 | — |
+| [changelog](skills/awesome-sites/references/apps/changelog.md) | 带 RSS 和嵌入组件的更新日志页 | Beamer, AnnounceKit | $25–59/月 | — |
+| [form-backend](skills/awesome-sites/references/apps/form-backend.md) | 表单构建器与收件箱，可接收任意 HTML 表单提交 | Formspree, Basin, Getform | $12.50–19/月 | — |
+| [testimonials](skills/awesome-sites/references/apps/testimonials.md) | 收集客户评价并展示"好评墙" | Testimonial.to, Senja | $25–29/月 | — |
+| [booking](skills/awesome-sites/references/apps/booking.md) | 设置每周可约时间，对方自行选时间预约（无日历同步） | Calendly, SavvyCal, Cal.com | $10–12/用户/月 | — |
+| [link-shortener](skills/awesome-sites/references/apps/link-shortener.md) | 带点击统计和二维码的短链接 | Short.io, Bitly | $5–18/月 (Short.io) | — |
+| [link-in-bio](skills/awesome-sites/references/apps/link-in-bio.md) | 带主题和点击统计的链接聚合页 | Beacons, Linktree | $10/月 (Beacons) | — |
+| [email-signature](skills/awesome-sites/references/apps/email-signature.md) | 可复制粘贴的 HTML 邮件签名生成器，含团队模式 | WiseStamp, Exclaimer | $19/月 / $0.90/用户/月 | — |
 
 ### 文件与支付
 
-| 应用 | 功能 | 所需密钥 |
-| --- | --- | --- |
-| [file-transfer](skills/awesome-sites/references/apps/file-transfer.md) | 上传文件，生成带有效期和密码的分享链接 | — |
-| [doc-sharing](skills/awesome-sites/references/apps/doc-sharing.md) | 可追踪的 PDF 链接：谁看了、每页停留多久 | — |
-| [invoicing](skills/awesome-sites/references/apps/invoicing.md) | 带公开支付页和 Stripe Checkout 的发票 | Stripe |
-| [digital-storefront](skills/awesome-sites/references/apps/digital-storefront.md) | 用 Stripe 销售 PDF、模板等数字商品 | Stripe |
+| 应用 | 功能 | 替代的产品 | 付费月费 | 所需密钥 |
+| --- | --- | --- | --- | --- |
+| [file-transfer](skills/awesome-sites/references/apps/file-transfer.md) | 上传文件，生成带有效期和密码的分享链接 | WeTransfer, Dropbox Transfer | $8–23/月 | — |
+| [doc-sharing](skills/awesome-sites/references/apps/doc-sharing.md) | 可追踪的 PDF 链接：谁看了、每页停留多久 | DocSend, Papermark | $10–45/用户/月 / €29–79/月 | — |
+| [invoicing](skills/awesome-sites/references/apps/invoicing.md) | 带公开支付页和 Stripe Checkout 的发票 | Invoice Ninja, FreshBooks, Zoho Invoice | 免费–$23/月 | Stripe |
+| [digital-storefront](skills/awesome-sites/references/apps/digital-storefront.md) | 用 Stripe 销售 PDF、模板等数字商品 | Gumroad, Lemon Squeezy, Payhip | 免费–$29/月 + 0–10% 手续费 | Stripe |
 
 ### AI 与网络数据工具
 
-| 应用 | 功能 | 所需密钥 |
-| --- | --- | --- |
-| [formula-ai](skills/awesome-sites/references/apps/formula-ai.md) | 用自然语言生成 Excel/表格公式、SQL、正则 | LLM |
-| [research-briefs](skills/awesome-sites/references/apps/research-briefs.md) | 联网搜索并撰写带引用来源的报告 | Tavily + LLM |
-| [csv-enricher](skills/awesome-sites/references/apps/csv-enricher.md) | 用联网搜索补全 CSV 的新列 | Tavily + LLM |
-| [bookmarks-mcp](skills/awesome-sites/references/apps/bookmarks-mcp.md) | 带 AI 摘要的书签，可通过 MCP 在 ChatGPT 中搜索 | — (LLM optional) |
-| [meeting-notes](skills/awesome-sites/references/apps/meeting-notes.md) | 录音转文字、摘要和行动项 | Groq + LLM |
-| [resume-tailor](skills/awesome-sites/references/apps/resume-tailor.md) | 根据职位描述定制简历和求职信 | LLM |
-| [docs-chatbot](skills/awesome-sites/references/apps/docs-chatbot.md) | 基于你文档回答的客服机器人，可嵌入网站 | LLM |
-| [seo-audit](skills/awesome-sites/references/apps/seo-audit.md) | PageSpeed 评分与页面 SEO 检查清单 | PageSpeed key |
-| [receipt-tracker](skills/awesome-sites/references/apps/receipt-tracker.md) | 收据照片转为费用台账，可导出 CSV | Gemini key |
-| [feedback-analyzer](skills/awesome-sites/references/apps/feedback-analyzer.md) | 将评论和问卷归类为主题并分析情感 | LLM |
-| [snippet-library](skills/awesome-sites/references/apps/snippet-library.md) | 带变量的文本与提示词库，支持 MCP | — (LLM optional) |
-| [review-reply-drafter](skills/awesome-sites/references/apps/review-reply-drafter.md) | 粘贴客户评论，生成 3 条回复草稿（不自动发布） | LLM |
+| 应用 | 功能 | 替代的产品 | 付费月费 | 所需密钥 |
+| --- | --- | --- | --- | --- |
+| [formula-ai](skills/awesome-sites/references/apps/formula-ai.md) | 用自然语言生成 Excel/表格公式、SQL、正则 | Better Analyst, Ajelix | $20–39/月 | LLM |
+| [research-briefs](skills/awesome-sites/references/apps/research-briefs.md) | 联网搜索并撰写带引用来源的报告 | Perplexity, Elicit | $17–49/月 | Tavily + LLM |
+| [csv-enricher](skills/awesome-sites/references/apps/csv-enricher.md) | 用联网搜索补全 CSV 的新列 | Clay, Databar | $60–99/月 | Tavily + LLM |
+| [bookmarks-mcp](skills/awesome-sites/references/apps/bookmarks-mcp.md) | 带 AI 摘要的书签，可通过 MCP 在 ChatGPT 中搜索 | Raindrop, Readwise | $3–10/月 | — (LLM 可选) |
+| [meeting-notes](skills/awesome-sites/references/apps/meeting-notes.md) | 录音转文字、摘要和行动项 | Otter, Fireflies, Fathom | $17–20/月 | Groq + LLM |
+| [resume-tailor](skills/awesome-sites/references/apps/resume-tailor.md) | 根据职位描述定制简历和求职信 | Teal, Rezi, Jobscan | $29–50/月 | LLM |
+| [docs-chatbot](skills/awesome-sites/references/apps/docs-chatbot.md) | 基于你文档回答的客服机器人，可嵌入网站 | Chatbase, CustomGPT | $99–150/月 | LLM |
+| [seo-audit](skills/awesome-sites/references/apps/seo-audit.md) | PageSpeed 评分与页面 SEO 检查清单 | Semrush, SE Ranking, Ubersuggest | $29–139/月 | PageSpeed 密钥 |
+| [receipt-tracker](skills/awesome-sites/references/apps/receipt-tracker.md) | 收据照片转为费用台账，可导出 CSV | Shoeboxed, Zoho Expense | $4–9/月 | Gemini 密钥 |
+| [feedback-analyzer](skills/awesome-sites/references/apps/feedback-analyzer.md) | 将评论和问卷归类为主题并分析情感 | Guess, Dovetail | $99–400/月 | LLM |
+| [snippet-library](skills/awesome-sites/references/apps/snippet-library.md) | 带变量的文本与提示词库，支持 MCP | TextExpander, Text Blaze | $3–5/月 | — (LLM 可选) |
+| [review-reply-drafter](skills/awesome-sites/references/apps/review-reply-drafter.md) | 粘贴客户评论，生成 3 条回复草稿（不自动发布） | Responsly, NiceJob | $10–135/月 | LLM |
 
 ### 韩国市场工具（界面为韩语）
 
-| 应用 | 功能 | 所需密钥 |
-| --- | --- | --- |
-| [group-order-ledger](skills/awesome-sites/references/apps/group-order-ledger.md) | 把 KakaoTalk 团购聊天整理成订单表并核对入账（仅记录） | LLM |
-| [order-sheet-converter](skills/awesome-sites/references/apps/order-sheet-converter.md) | 把电商订单表合并为快递上传格式（仅在浏览器内处理） | — |
-| [campaign-tracker](skills/awesome-sites/references/apps/campaign-tracker.md) | 体验团/赞助合作的日程管理，附日历订阅 | — (LLM optional) |
-| [club-ledger](skills/awesome-sites/references/apps/club-ledger.md) | 社团会费、出勤、罚款、排名记录（不经手资金） | — |
+| 应用 | 功能 | 替代的产品 | 付费月费 | 所需密钥 |
+| --- | --- | --- | --- | --- |
+| [group-order-ledger](skills/awesome-sites/references/apps/group-order-ledger.md) | 把 KakaoTalk 团购聊天整理成订单表并核对入账（仅记录） | 다골라, 톡장부 | 9,900–49,000원/月 | LLM |
+| [order-sheet-converter](skills/awesome-sites/references/apps/order-sheet-converter.md) | 把电商订单表合并为快递上传格式（仅在浏览器内处理） | EXCLOAD | 4,000원/月 | — |
+| [campaign-tracker](skills/awesome-sites/references/apps/campaign-tracker.md) | 体验团/赞助合作的日程管理，附日历订阅 | 콜라보매니저 | 免费 | — (LLM 可选) |
+| [club-ledger](skills/awesome-sites/references/apps/club-ledger.md) | 社团会费、出勤、罚款、排名记录（不经手资金） | 총무의가계부 | 3,600원/月 | — |
 
 ### 团队与智能体工具
 
-| 应用 | 功能 | 所需密钥 |
-| --- | --- | --- |
-| [issue-tracker](skills/awesome-sites/references/apps/issue-tracker.md) | 带 MCP 工具的 Linear 风格问题看板 | — |
-| [memory-mcp](skills/awesome-sites/references/apps/memory-mcp.md) | ChatGPT 与 Codex 可通过 MCP 读写的个人记忆 | — |
+| 应用 | 功能 | 替代的产品 | 付费月费 | 所需密钥 |
+| --- | --- | --- | --- | --- |
+| [issue-tracker](skills/awesome-sites/references/apps/issue-tracker.md) | 带 MCP 工具的 Linear 风格问题看板 | Linear, Shortcut, Plane | $8–10/用户/月 | — |
+| [memory-mcp](skills/awesome-sites/references/apps/memory-mcp.md) | ChatGPT 与 Codex 可通过 MCP 读写的个人记忆 | Mem, Supermemory | $9–19/月 | — |
 
 ## Sites 提供什么，你需要自带什么
 

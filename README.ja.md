@@ -53,63 +53,63 @@ Install the "awesome-sites" skill from https://github.com/Atipico1/awesome-chatg
 
 ## アプリ一覧
 
-仕様は31個。それぞれ[`skills/awesome-sites/references/apps/`](skills/awesome-sites/references/apps/)内のファイル1つです。「必要なキー」はSites以外に必要なもので、すべて無料枠で始められます。
+仕様は31個。それぞれ[`skills/awesome-sites/references/apps/`](skills/awesome-sites/references/apps/)内のファイル1つです。「必要なキー」はSites以外に必要なもので、すべて無料枠で始められます。 「置き換える製品」と「有料の月額」は、アプリが代わりになる有料製品とその月額です（特記なき限りUSD、2026-11-13確認、一部は年払い換算）。仕様は各製品の基本部分だけを扱います。有料製品にあって仕様にない機能や、すでに無料の代替がある場合は[`pricing.md`](skills/awesome-sites/references/shared/pricing.md)にあります。
 
 ### 顧客向けツール
 
-| アプリ | できること | 必要なキー |
-| --- | --- | --- |
-| [feedback-board](skills/awesome-sites/references/apps/feedback-board.md) | お客様が機能要望を投稿・投票できるボードと公開ロードマップ | — |
-| [waitlist](skills/awesome-sites/references/apps/waitlist.md) | リリース前のメール登録。紹介リンクで順位が上がる | — |
-| [changelog](skills/awesome-sites/references/apps/changelog.md) | RSSと埋め込みウィジェット付きのリリースノート | — |
-| [form-backend](skills/awesome-sites/references/apps/form-backend.md) | フォームビルダーと受信箱。任意のHTMLフォームから受付 | — |
-| [testimonials](skills/awesome-sites/references/apps/testimonials.md) | お客様の声を集めて「Wall of Love」で表示 | — |
-| [booking](skills/awesome-sites/references/apps/booking.md) | 空き時間を設定し、相手が日時を選んで予約（カレンダー連携なし） | — |
-| [link-shortener](skills/awesome-sites/references/apps/link-shortener.md) | クリック統計とQRコード付きの短縮リンク | — |
-| [link-in-bio](skills/awesome-sites/references/apps/link-in-bio.md) | テーマとクリック統計付きのリンクまとめページ | — |
-| [email-signature](skills/awesome-sites/references/apps/email-signature.md) | コピー＆ペーストできるHTMLメール署名ジェネレーター（チームモード付き） | — |
+| アプリ | できること | 置き換える製品 | 有料の月額 | 必要なキー |
+| --- | --- | --- | --- | --- |
+| [feedback-board](skills/awesome-sites/references/apps/feedback-board.md) | お客様が機能要望を投稿・投票できるボードと公開ロードマップ | Canny, Upvoty, Nolt | $15–79/月 | — |
+| [waitlist](skills/awesome-sites/references/apps/waitlist.md) | リリース前のメール登録。紹介リンクで順位が上がる | Waitlister, Viral Loops, Prefinery | $19–39/月 | — |
+| [changelog](skills/awesome-sites/references/apps/changelog.md) | RSSと埋め込みウィジェット付きのリリースノート | Beamer, AnnounceKit | $25–59/月 | — |
+| [form-backend](skills/awesome-sites/references/apps/form-backend.md) | フォームビルダーと受信箱。任意のHTMLフォームから受付 | Formspree, Basin, Getform | $12.50–19/月 | — |
+| [testimonials](skills/awesome-sites/references/apps/testimonials.md) | お客様の声を集めて「Wall of Love」で表示 | Testimonial.to, Senja | $25–29/月 | — |
+| [booking](skills/awesome-sites/references/apps/booking.md) | 空き時間を設定し、相手が日時を選んで予約（カレンダー連携なし） | Calendly, SavvyCal, Cal.com | $10–12/ユーザー/月 | — |
+| [link-shortener](skills/awesome-sites/references/apps/link-shortener.md) | クリック統計とQRコード付きの短縮リンク | Short.io, Bitly | $5–18/月 (Short.io) | — |
+| [link-in-bio](skills/awesome-sites/references/apps/link-in-bio.md) | テーマとクリック統計付きのリンクまとめページ | Beacons, Linktree | $10/月 (Beacons) | — |
+| [email-signature](skills/awesome-sites/references/apps/email-signature.md) | コピー＆ペーストできるHTMLメール署名ジェネレーター（チームモード付き） | WiseStamp, Exclaimer | $19/月 / $0.90/ユーザー/月 | — |
 
 ### ファイルと決済
 
-| アプリ | できること | 必要なキー |
-| --- | --- | --- |
-| [file-transfer](skills/awesome-sites/references/apps/file-transfer.md) | ファイルをアップロードし、期限・パスワード付きリンクで共有 | — |
-| [doc-sharing](skills/awesome-sites/references/apps/doc-sharing.md) | 追跡できるPDFリンク。誰がどのページを何秒見たか確認 | — |
-| [invoicing](skills/awesome-sites/references/apps/invoicing.md) | 公開支払いページとStripe Checkout付きの請求書 | Stripe |
-| [digital-storefront](skills/awesome-sites/references/apps/digital-storefront.md) | PDFやテンプレートなどのデジタル商品をStripeで販売 | Stripe |
+| アプリ | できること | 置き換える製品 | 有料の月額 | 必要なキー |
+| --- | --- | --- | --- | --- |
+| [file-transfer](skills/awesome-sites/references/apps/file-transfer.md) | ファイルをアップロードし、期限・パスワード付きリンクで共有 | WeTransfer, Dropbox Transfer | $8–23/月 | — |
+| [doc-sharing](skills/awesome-sites/references/apps/doc-sharing.md) | 追跡できるPDFリンク。誰がどのページを何秒見たか確認 | DocSend, Papermark | $10–45/ユーザー/月 / €29–79/月 | — |
+| [invoicing](skills/awesome-sites/references/apps/invoicing.md) | 公開支払いページとStripe Checkout付きの請求書 | Invoice Ninja, FreshBooks, Zoho Invoice | 無料–$23/月 | Stripe |
+| [digital-storefront](skills/awesome-sites/references/apps/digital-storefront.md) | PDFやテンプレートなどのデジタル商品をStripeで販売 | Gumroad, Lemon Squeezy, Payhip | 無料–$29/月 + 0–10% 手数料 | Stripe |
 
 ### AI・Webデータツール
 
-| アプリ | できること | 必要なキー |
-| --- | --- | --- |
-| [formula-ai](skills/awesome-sites/references/apps/formula-ai.md) | 日本語や英語の説明からExcel/スプレッドシートの数式・SQL・正規表現を生成 | LLM |
-| [research-briefs](skills/awesome-sites/references/apps/research-briefs.md) | Web検索して出典付きのレポートを作成 | Tavily + LLM |
-| [csv-enricher](skills/awesome-sites/references/apps/csv-enricher.md) | Web検索でCSVの新しい列を埋める | Tavily + LLM |
-| [bookmarks-mcp](skills/awesome-sites/references/apps/bookmarks-mcp.md) | AI要約付きブックマーク。MCP経由でChatGPTから検索 | — (LLM optional) |
-| [meeting-notes](skills/awesome-sites/references/apps/meeting-notes.md) | 音声から文字起こし・要約・アクションアイテムを作成 | Groq + LLM |
-| [resume-tailor](skills/awesome-sites/references/apps/resume-tailor.md) | 求人票に合わせて履歴書とカバーレターを調整 | LLM |
-| [docs-chatbot](skills/awesome-sites/references/apps/docs-chatbot.md) | 自社ドキュメントで答えるサポートチャットボット（埋め込み可） | LLM |
-| [seo-audit](skills/awesome-sites/references/apps/seo-audit.md) | PageSpeedスコアとオンページSEOチェックリスト | PageSpeed key |
-| [receipt-tracker](skills/awesome-sites/references/apps/receipt-tracker.md) | レシート写真を経費台帳に。CSV出力あり | Gemini key |
-| [feedback-analyzer](skills/awesome-sites/references/apps/feedback-analyzer.md) | レビューやアンケートをテーマと感情で分類 | LLM |
-| [snippet-library](skills/awesome-sites/references/apps/snippet-library.md) | 変数付きの定型文・プロンプト保存庫（MCP対応） | — (LLM optional) |
-| [review-reply-drafter](skills/awesome-sites/references/apps/review-reply-drafter.md) | 顧客レビューを貼ると返信案を3つ作成（自動投稿なし） | LLM |
+| アプリ | できること | 置き換える製品 | 有料の月額 | 必要なキー |
+| --- | --- | --- | --- | --- |
+| [formula-ai](skills/awesome-sites/references/apps/formula-ai.md) | 日本語や英語の説明からExcel/スプレッドシートの数式・SQL・正規表現を生成 | Better Analyst, Ajelix | $20–39/月 | LLM |
+| [research-briefs](skills/awesome-sites/references/apps/research-briefs.md) | Web検索して出典付きのレポートを作成 | Perplexity, Elicit | $17–49/月 | Tavily + LLM |
+| [csv-enricher](skills/awesome-sites/references/apps/csv-enricher.md) | Web検索でCSVの新しい列を埋める | Clay, Databar | $60–99/月 | Tavily + LLM |
+| [bookmarks-mcp](skills/awesome-sites/references/apps/bookmarks-mcp.md) | AI要約付きブックマーク。MCP経由でChatGPTから検索 | Raindrop, Readwise | $3–10/月 | — (LLMは任意) |
+| [meeting-notes](skills/awesome-sites/references/apps/meeting-notes.md) | 音声から文字起こし・要約・アクションアイテムを作成 | Otter, Fireflies, Fathom | $17–20/月 | Groq + LLM |
+| [resume-tailor](skills/awesome-sites/references/apps/resume-tailor.md) | 求人票に合わせて履歴書とカバーレターを調整 | Teal, Rezi, Jobscan | $29–50/月 | LLM |
+| [docs-chatbot](skills/awesome-sites/references/apps/docs-chatbot.md) | 自社ドキュメントで答えるサポートチャットボット（埋め込み可） | Chatbase, CustomGPT | $99–150/月 | LLM |
+| [seo-audit](skills/awesome-sites/references/apps/seo-audit.md) | PageSpeedスコアとオンページSEOチェックリスト | Semrush, SE Ranking, Ubersuggest | $29–139/月 | PageSpeedキー |
+| [receipt-tracker](skills/awesome-sites/references/apps/receipt-tracker.md) | レシート写真を経費台帳に。CSV出力あり | Shoeboxed, Zoho Expense | $4–9/月 | Geminiキー |
+| [feedback-analyzer](skills/awesome-sites/references/apps/feedback-analyzer.md) | レビューやアンケートをテーマと感情で分類 | Guess, Dovetail | $99–400/月 | LLM |
+| [snippet-library](skills/awesome-sites/references/apps/snippet-library.md) | 変数付きの定型文・プロンプト保存庫（MCP対応） | TextExpander, Text Blaze | $3–5/月 | — (LLMは任意) |
+| [review-reply-drafter](skills/awesome-sites/references/apps/review-reply-drafter.md) | 顧客レビューを貼ると返信案を3つ作成（自動投稿なし） | Responsly, NiceJob | $10–135/月 | LLM |
 
 ### 韓国市場向けツール（UIは韓国語）
 
-| アプリ | できること | 必要なキー |
-| --- | --- | --- |
-| [group-order-ledger](skills/awesome-sites/references/apps/group-order-ledger.md) | KakaoTalkの共同購入チャットを注文表に整理し入金照合（記録のみ） | LLM |
-| [order-sheet-converter](skills/awesome-sites/references/apps/order-sheet-converter.md) | マーケットの注文Excelを宅配アップロード形式に変換（ブラウザ内のみ） | — |
-| [campaign-tracker](skills/awesome-sites/references/apps/campaign-tracker.md) | 体験団・協賛キャンペーンの締切管理とカレンダー購読 | — (LLM optional) |
-| [club-ledger](skills/awesome-sites/references/apps/club-ledger.md) | サークルの会費・出席・罰金・ランキング記録（お金は扱わない） | — |
+| アプリ | できること | 置き換える製品 | 有料の月額 | 必要なキー |
+| --- | --- | --- | --- | --- |
+| [group-order-ledger](skills/awesome-sites/references/apps/group-order-ledger.md) | KakaoTalkの共同購入チャットを注文表に整理し入金照合（記録のみ） | 다골라, 톡장부 | 9,900–49,000원/月 | LLM |
+| [order-sheet-converter](skills/awesome-sites/references/apps/order-sheet-converter.md) | マーケットの注文Excelを宅配アップロード形式に変換（ブラウザ内のみ） | EXCLOAD | 4,000원/月 | — |
+| [campaign-tracker](skills/awesome-sites/references/apps/campaign-tracker.md) | 体験団・協賛キャンペーンの締切管理とカレンダー購読 | 콜라보매니저 | 無料 | — (LLMは任意) |
+| [club-ledger](skills/awesome-sites/references/apps/club-ledger.md) | サークルの会費・出席・罰金・ランキング記録（お金は扱わない） | 총무의가계부 | 3,600원/月 | — |
 
 ### チーム・エージェント向けツール
 
-| アプリ | できること | 必要なキー |
-| --- | --- | --- |
-| [issue-tracker](skills/awesome-sites/references/apps/issue-tracker.md) | MCPツール付きのLinear風イシューボード | — |
-| [memory-mcp](skills/awesome-sites/references/apps/memory-mcp.md) | ChatGPTとCodexがMCPで読み書きできる個人メモリ | — |
+| アプリ | できること | 置き換える製品 | 有料の月額 | 必要なキー |
+| --- | --- | --- | --- | --- |
+| [issue-tracker](skills/awesome-sites/references/apps/issue-tracker.md) | MCPツール付きのLinear風イシューボード | Linear, Shortcut, Plane | $8–10/ユーザー/月 | — |
+| [memory-mcp](skills/awesome-sites/references/apps/memory-mcp.md) | ChatGPTとCodexがMCPで読み書きできる個人メモリ | Mem, Supermemory | $9–19/月 | — |
 
 ## Sitesが提供するものと、自分で用意するもの
 

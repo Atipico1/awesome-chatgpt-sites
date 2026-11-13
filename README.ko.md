@@ -53,63 +53,63 @@ Install the "awesome-sites" skill from https://github.com/Atipico1/awesome-chatg
 
 ## 앱 목록
 
-스펙 31개입니다. 각각 [`skills/awesome-sites/references/apps/`](skills/awesome-sites/references/apps/)의 파일 하나입니다. "필요한 키"는 Sites 외에 필요한 키이며, 모두 무료 티어로 시작할 수 있습니다.
+스펙 31개입니다. 각각 [`skills/awesome-sites/references/apps/`](skills/awesome-sites/references/apps/)의 파일 하나입니다. "필요한 키"는 Sites 외에 필요한 키이며, 모두 무료 티어로 시작할 수 있습니다. "대체하는 제품"과 "유료 월 요금"은 앱이 대신하는 유료 제품과 그 월 요금입니다(별도 표기가 없으면 USD, 2026-11-13 확인, 일부는 연 결제 기준). 스펙은 각 제품의 기본 기능만 다룹니다. 유료 제품에는 있고 스펙에는 없는 기능, 이미 무료 대안이 있는 경우는 [`pricing.md`](skills/awesome-sites/references/shared/pricing.md)에 있습니다.
 
 ### 고객용 도구
 
-| 앱 | 하는 일 | 필요한 키 |
-| --- | --- | --- |
-| [feedback-board](skills/awesome-sites/references/apps/feedback-board.md) | 고객이 기능 요청을 올리고 투표하는 게시판과 공개 로드맵 | — |
-| [waitlist](skills/awesome-sites/references/apps/waitlist.md) | 출시 전 이메일 대기자 모집, 추천 링크로 순위 상승 | — |
-| [changelog](skills/awesome-sites/references/apps/changelog.md) | RSS와 임베드 위젯이 있는 릴리즈 노트 페이지 | — |
-| [form-backend](skills/awesome-sites/references/apps/form-backend.md) | 폼 빌더와 제출함, 어떤 HTML 폼이든 받음 | — |
-| [testimonials](skills/awesome-sites/references/apps/testimonials.md) | 고객 후기를 모아 "Wall of Love"로 보여줌 | — |
-| [booking](skills/awesome-sites/references/apps/booking.md) | 가능 시간을 열어두면 상대가 시간을 골라 예약(캘린더 연동 없음) | — |
-| [link-shortener](skills/awesome-sites/references/apps/link-shortener.md) | 클릭 통계와 QR이 있는 단축 링크 | — |
-| [link-in-bio](skills/awesome-sites/references/apps/link-in-bio.md) | 링크 모음 공개 페이지, 테마와 클릭 통계 | — |
-| [email-signature](skills/awesome-sites/references/apps/email-signature.md) | 복사해서 붙이는 HTML 이메일 서명 생성기, 팀 모드 지원 | — |
+| 앱 | 하는 일 | 대체하는 제품 | 유료 월 요금 | 필요한 키 |
+| --- | --- | --- | --- | --- |
+| [feedback-board](skills/awesome-sites/references/apps/feedback-board.md) | 고객이 기능 요청을 올리고 투표하는 게시판과 공개 로드맵 | Canny, Upvoty, Nolt | $15–79/월 | — |
+| [waitlist](skills/awesome-sites/references/apps/waitlist.md) | 출시 전 이메일 대기자 모집, 추천 링크로 순위 상승 | Waitlister, Viral Loops, Prefinery | $19–39/월 | — |
+| [changelog](skills/awesome-sites/references/apps/changelog.md) | RSS와 임베드 위젯이 있는 릴리즈 노트 페이지 | Beamer, AnnounceKit | $25–59/월 | — |
+| [form-backend](skills/awesome-sites/references/apps/form-backend.md) | 폼 빌더와 제출함, 어떤 HTML 폼이든 받음 | Formspree, Basin, Getform | $12.50–19/월 | — |
+| [testimonials](skills/awesome-sites/references/apps/testimonials.md) | 고객 후기를 모아 "Wall of Love"로 보여줌 | Testimonial.to, Senja | $25–29/월 | — |
+| [booking](skills/awesome-sites/references/apps/booking.md) | 가능 시간을 열어두면 상대가 시간을 골라 예약(캘린더 연동 없음) | Calendly, SavvyCal, Cal.com | $10–12/사용자/월 | — |
+| [link-shortener](skills/awesome-sites/references/apps/link-shortener.md) | 클릭 통계와 QR이 있는 단축 링크 | Short.io, Bitly | $5–18/월 (Short.io) | — |
+| [link-in-bio](skills/awesome-sites/references/apps/link-in-bio.md) | 링크 모음 공개 페이지, 테마와 클릭 통계 | Beacons, Linktree | $10/월 (Beacons) | — |
+| [email-signature](skills/awesome-sites/references/apps/email-signature.md) | 복사해서 붙이는 HTML 이메일 서명 생성기, 팀 모드 지원 | WiseStamp, Exclaimer | $19/월 / $0.90/사용자/월 | — |
 
 ### 파일과 결제
 
-| 앱 | 하는 일 | 필요한 키 |
-| --- | --- | --- |
-| [file-transfer](skills/awesome-sites/references/apps/file-transfer.md) | 파일을 올리고 만료·비밀번호가 있는 링크로 공유 | — |
-| [doc-sharing](skills/awesome-sites/references/apps/doc-sharing.md) | 추적 가능한 PDF 링크, 누가 얼마나 봤는지 확인 (DocSend형) | — |
-| [invoicing](skills/awesome-sites/references/apps/invoicing.md) | 공개 결제 페이지와 Stripe Checkout이 있는 청구서 | Stripe |
-| [digital-storefront](skills/awesome-sites/references/apps/digital-storefront.md) | PDF·템플릿 같은 디지털 상품을 Stripe로 판매 | Stripe |
+| 앱 | 하는 일 | 대체하는 제품 | 유료 월 요금 | 필요한 키 |
+| --- | --- | --- | --- | --- |
+| [file-transfer](skills/awesome-sites/references/apps/file-transfer.md) | 파일을 올리고 만료·비밀번호가 있는 링크로 공유 | WeTransfer, Dropbox Transfer | $8–23/월 | — |
+| [doc-sharing](skills/awesome-sites/references/apps/doc-sharing.md) | 추적 가능한 PDF 링크, 누가 얼마나 봤는지 확인 (DocSend형) | DocSend, Papermark | $10–45/사용자/월 / €29–79/월 | — |
+| [invoicing](skills/awesome-sites/references/apps/invoicing.md) | 공개 결제 페이지와 Stripe Checkout이 있는 청구서 | Invoice Ninja, FreshBooks, Zoho Invoice | 무료–$23/월 | Stripe |
+| [digital-storefront](skills/awesome-sites/references/apps/digital-storefront.md) | PDF·템플릿 같은 디지털 상품을 Stripe로 판매 | Gumroad, Lemon Squeezy, Payhip | 무료–$29/월 + 0–10% 수수료 | Stripe |
 
 ### AI·웹 데이터 도구
 
-| 앱 | 하는 일 | 필요한 키 |
-| --- | --- | --- |
-| [formula-ai](skills/awesome-sites/references/apps/formula-ai.md) | 말로 설명하면 엑셀/시트 수식·SQL·정규식을 만들어 줌 | LLM |
-| [research-briefs](skills/awesome-sites/references/apps/research-briefs.md) | 웹 검색 후 출처가 달린 리포트 작성 | Tavily + LLM |
-| [csv-enricher](skills/awesome-sites/references/apps/csv-enricher.md) | CSV의 새 칸을 웹 검색으로 채움 | Tavily + LLM |
-| [bookmarks-mcp](skills/awesome-sites/references/apps/bookmarks-mcp.md) | AI 요약이 붙는 북마크, MCP로 ChatGPT에서 검색 | — (LLM optional) |
-| [meeting-notes](skills/awesome-sites/references/apps/meeting-notes.md) | 회의 녹음을 받아쓰기·요약·액션 아이템으로 | Groq + LLM |
-| [resume-tailor](skills/awesome-sites/references/apps/resume-tailor.md) | 채용공고에 맞춰 이력서와 커버레터를 다시 써 줌 | LLM |
-| [docs-chatbot](skills/awesome-sites/references/apps/docs-chatbot.md) | 내 문서로 답하는 고객지원 챗봇, 사이트에 임베드 | LLM |
-| [seo-audit](skills/awesome-sites/references/apps/seo-audit.md) | PageSpeed 점수와 온페이지 SEO 체크리스트 | PageSpeed key |
-| [receipt-tracker](skills/awesome-sites/references/apps/receipt-tracker.md) | 영수증 사진을 경비 장부로, CSV 내보내기 | Gemini key |
-| [feedback-analyzer](skills/awesome-sites/references/apps/feedback-analyzer.md) | 리뷰·설문 응답을 주제와 감정으로 묶어 분석 | LLM |
-| [snippet-library](skills/awesome-sites/references/apps/snippet-library.md) | 변수가 있는 문구·프롬프트 저장소, MCP 연동 | — (LLM optional) |
-| [review-reply-drafter](skills/awesome-sites/references/apps/review-reply-drafter.md) | 고객 리뷰를 붙여넣으면 답글 초안 3개 (자동 게시 없음) | LLM |
+| 앱 | 하는 일 | 대체하는 제품 | 유료 월 요금 | 필요한 키 |
+| --- | --- | --- | --- | --- |
+| [formula-ai](skills/awesome-sites/references/apps/formula-ai.md) | 말로 설명하면 엑셀/시트 수식·SQL·정규식을 만들어 줌 | Better Analyst, Ajelix | $20–39/월 | LLM |
+| [research-briefs](skills/awesome-sites/references/apps/research-briefs.md) | 웹 검색 후 출처가 달린 리포트 작성 | Perplexity, Elicit | $17–49/월 | Tavily + LLM |
+| [csv-enricher](skills/awesome-sites/references/apps/csv-enricher.md) | CSV의 새 칸을 웹 검색으로 채움 | Clay, Databar | $60–99/월 | Tavily + LLM |
+| [bookmarks-mcp](skills/awesome-sites/references/apps/bookmarks-mcp.md) | AI 요약이 붙는 북마크, MCP로 ChatGPT에서 검색 | Raindrop, Readwise | $3–10/월 | — (LLM 선택) |
+| [meeting-notes](skills/awesome-sites/references/apps/meeting-notes.md) | 회의 녹음을 받아쓰기·요약·액션 아이템으로 | Otter, Fireflies, Fathom | $17–20/월 | Groq + LLM |
+| [resume-tailor](skills/awesome-sites/references/apps/resume-tailor.md) | 채용공고에 맞춰 이력서와 커버레터를 다시 써 줌 | Teal, Rezi, Jobscan | $29–50/월 | LLM |
+| [docs-chatbot](skills/awesome-sites/references/apps/docs-chatbot.md) | 내 문서로 답하는 고객지원 챗봇, 사이트에 임베드 | Chatbase, CustomGPT | $99–150/월 | LLM |
+| [seo-audit](skills/awesome-sites/references/apps/seo-audit.md) | PageSpeed 점수와 온페이지 SEO 체크리스트 | Semrush, SE Ranking, Ubersuggest | $29–139/월 | PageSpeed 키 |
+| [receipt-tracker](skills/awesome-sites/references/apps/receipt-tracker.md) | 영수증 사진을 경비 장부로, CSV 내보내기 | Shoeboxed, Zoho Expense | $4–9/월 | Gemini 키 |
+| [feedback-analyzer](skills/awesome-sites/references/apps/feedback-analyzer.md) | 리뷰·설문 응답을 주제와 감정으로 묶어 분석 | Guess, Dovetail | $99–400/월 | LLM |
+| [snippet-library](skills/awesome-sites/references/apps/snippet-library.md) | 변수가 있는 문구·프롬프트 저장소, MCP 연동 | TextExpander, Text Blaze | $3–5/월 | — (LLM 선택) |
+| [review-reply-drafter](skills/awesome-sites/references/apps/review-reply-drafter.md) | 고객 리뷰를 붙여넣으면 답글 초안 3개 (자동 게시 없음) | Responsly, NiceJob | $10–135/월 | LLM |
 
 ### 한국 시장용 도구 (UI 한국어)
 
-| 앱 | 하는 일 | 필요한 키 |
-| --- | --- | --- |
-| [group-order-ledger](skills/awesome-sites/references/apps/group-order-ledger.md) | 카톡 공동구매 대화를 주문표로 정리, 입금 대조 (기록 전용) | LLM |
-| [order-sheet-converter](skills/awesome-sites/references/apps/order-sheet-converter.md) | 마켓 주문 엑셀을 택배 업로드 양식으로 변환 (브라우저에서만 처리) | — |
-| [campaign-tracker](skills/awesome-sites/references/apps/campaign-tracker.md) | 체험단·협찬 일정 관리와 캘린더 구독 피드 | — (LLM optional) |
-| [club-ledger](skills/awesome-sites/references/apps/club-ledger.md) | 동호회 회비·출석·벌금·랭킹 기록 (돈은 다루지 않음) | — |
+| 앱 | 하는 일 | 대체하는 제품 | 유료 월 요금 | 필요한 키 |
+| --- | --- | --- | --- | --- |
+| [group-order-ledger](skills/awesome-sites/references/apps/group-order-ledger.md) | 카톡 공동구매 대화를 주문표로 정리, 입금 대조 (기록 전용) | 다골라, 톡장부 | 9,900–49,000원/월 | LLM |
+| [order-sheet-converter](skills/awesome-sites/references/apps/order-sheet-converter.md) | 마켓 주문 엑셀을 택배 업로드 양식으로 변환 (브라우저에서만 처리) | EXCLOAD | 4,000원/월 | — |
+| [campaign-tracker](skills/awesome-sites/references/apps/campaign-tracker.md) | 체험단·협찬 일정 관리와 캘린더 구독 피드 | 콜라보매니저 | 무료 | — (LLM 선택) |
+| [club-ledger](skills/awesome-sites/references/apps/club-ledger.md) | 동호회 회비·출석·벌금·랭킹 기록 (돈은 다루지 않음) | 총무의가계부 | 3,600원/월 | — |
 
 ### 팀·에이전트용 도구
 
-| 앱 | 하는 일 | 필요한 키 |
-| --- | --- | --- |
-| [issue-tracker](skills/awesome-sites/references/apps/issue-tracker.md) | MCP 도구가 있는 Linear 스타일 이슈 보드 | — |
-| [memory-mcp](skills/awesome-sites/references/apps/memory-mcp.md) | ChatGPT·Codex가 MCP로 읽고 쓰는 개인 메모리 | — |
+| 앱 | 하는 일 | 대체하는 제품 | 유료 월 요금 | 필요한 키 |
+| --- | --- | --- | --- | --- |
+| [issue-tracker](skills/awesome-sites/references/apps/issue-tracker.md) | MCP 도구가 있는 Linear 스타일 이슈 보드 | Linear, Shortcut, Plane | $8–10/사용자/월 | — |
+| [memory-mcp](skills/awesome-sites/references/apps/memory-mcp.md) | ChatGPT·Codex가 MCP로 읽고 쓰는 개인 메모리 | Mem, Supermemory | $9–19/월 | — |
 
 ## Sites가 주는 것과 직접 가져오는 것
 

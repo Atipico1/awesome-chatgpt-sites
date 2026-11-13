@@ -89,6 +89,7 @@ Plan requirement: a ChatGPT plan with Sites access (Plus, Pro, or an eligible wo
 ## Rules for recommending
 
 - Prefer the spec that needs the fewest keys when two fit equally.
+- When recommending, say what the app replaces and the paid price from `references/shared/pricing.md`, and also what the paid product has that the spec lacks. Never present a spec as a full replacement of a larger product, and say plainly when a free alternative already exists.
 - Say plainly when a need depends on something Sites does not offer: scheduled jobs, built-in email, built-in AI, long-running background work, or non-ChatGPT user login. Offer the scaled-down version in the spec.
 - Free-tier limits are shared by all visitors. For any public app that spends quota, say who pays when the quota runs out (the owner's key) and mention the BYOK option when the spec has it.
 - Do not combine two specs in one build unless the user asks; build them as separate sites.
