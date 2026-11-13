@@ -35,7 +35,7 @@ Live probe: send one chat request with `max_tokens` 5 and report whether it retu
 - Key page: https://console.groq.com/keys
 - Steps: sign up or sign in → **API Keys** → **Create API Key** → name it → copy it immediately (it is shown once).
 - Secrets: `LLM_API_KEY` = the key, `LLM_BASE_URL` = `https://api.groq.com/openai/v1`, `LLM_MODEL` = a model from the Groq models page. For speech-to-text apps also set `GROQ_API_KEY` to the same key.
-- Free plan (checked 2026-11): about 30 requests/min, 1,000 requests/day, 200,000 tokens/day on `openai/gpt-oss-120b`; Whisper about 20 requests/min and 7,200 audio seconds/hour. Limits are per organization.
+- Free plan (checked 2026-11): about 30 requests/min, 1,000 requests/day, 200,000 tokens/day on `openai/gpt-oss-120b`; Whisper about 20 requests/min and 7,200 audio seconds/hour. The same table lists 8,000 tokens per minute, which long inputs and Korean text reach first; space batch calls out (at least 3 seconds apart) and honor `retry-after` on 429. Limits are per organization.
 
 ### Gemini (Google AI Studio)
 

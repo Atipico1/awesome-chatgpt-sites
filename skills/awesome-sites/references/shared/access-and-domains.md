@@ -38,8 +38,10 @@ So apps that serve customers need an **Anyone on the internet** audience. Apps u
 
 | App | Recommended audience | Why |
 | --- | --- | --- |
-| feedback-board, waitlist, changelog, form-backend, testimonials, booking, link-shortener, invoicing, digital-storefront, file-transfer, docs-chatbot, seo-audit | Public (anyone on the internet), with owner admin | Customers or the public use it |
+| feedback-board, waitlist, changelog, form-backend, testimonials, booking, link-shortener, invoicing, digital-storefront, file-transfer, docs-chatbot, seo-audit, doc-sharing, link-in-bio, email-signature, group-order-ledger | Public (anyone on the internet), with owner admin | Customers or the public use it |
 | formula-ai, resume-tailor | Public with sign-in for AI actions, or invited-only for a small group | Spends quota, so sign-in is required either way |
+| club-ledger | Public share page, owner tools behind sign-in (or private with invited viewers) | Members read a link; the treasurer edits |
+| snippet-library, review-reply-drafter, campaign-tracker, order-sheet-converter | Private (owner, or only those invited) | Personal or small-team data; order-sheet-converter also works signed out because it runs in the browser |
 | research-briefs, csv-enricher, bookmarks-mcp, meeting-notes, receipt-tracker, feedback-analyzer, issue-tracker, memory-mcp | Private (owner, or only those invited) | Personal or team data |
 
 If the user's account cannot publish publicly, say so and offer the nearest alternative (invite specific people, or run a private version).

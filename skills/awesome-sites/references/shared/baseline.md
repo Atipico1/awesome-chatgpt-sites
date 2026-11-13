@@ -32,6 +32,17 @@ Pick the pattern the app reference names.
 
 Never hard-code the site address. Read `SITE_URL` from the environment (fall back to the request origin) for every absolute link; see `access-and-domains.md`.
 
+## Environment values shared by specs
+
+| Name | Used for | Default |
+| --- | --- | --- |
+| `OWNER_EMAILS` | Comma-separated emails allowed to use admin pages | empty (first signed-in user to open `/admin` becomes owner) |
+| `SITE_URL` | Public base URL for absolute links | request origin |
+| `GLOBAL_DAILY_CAP` | Daily limit on quota-spending calls across all users | 300 |
+| `SIGNUP_MODE` | `owner_only` or `open`; whether any signed-in user may create their own public pages (link-in-bio) | `owner_only` |
+
+A spec may add its own values; list them in its Keys or Limits section.
+
 ## Keys and health check
 
 - Read each key from the environment on the server only. Never send a key, or a response containing one, to the browser.

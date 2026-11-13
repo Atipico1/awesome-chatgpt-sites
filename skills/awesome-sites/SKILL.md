@@ -1,6 +1,6 @@
 ---
 name: awesome-sites
-description: Entry point for building small SaaS-style apps on ChatGPT Sites (hosting + D1 database + R2 files + Sign in with ChatGPT), including apps that use free-tier AI, search, and email APIs. Use when the user describes something they want to build or need as a web tool, SaaS, internal tool, or MCP server and wants it hosted on Sites, or asks what they could build on Sites. Recommends from a catalog of 22 ready app specs, guides the user through getting any API keys, then builds the chosen one with the official Sites skill.
+description: Entry point for building small SaaS-style apps on ChatGPT Sites (hosting + D1 database + R2 files + Sign in with ChatGPT), including apps that use free-tier AI, search, and email APIs. Use when the user describes something they want to build or need as a web tool, SaaS, internal tool, or MCP server and wants it hosted on Sites, or asks what they could build on Sites. Recommends from a catalog of 31 ready app specs, guides the user through getting any API keys, then builds the chosen one with the official Sites skill.
 ---
 
 # awesome-sites
@@ -41,6 +41,8 @@ Plan requirement: a ChatGPT plan with Sites access (Plus, Pro, or an eligible wo
 | testimonials | Collect customer testimonials and show a wall of love | "testimonials", "reviews page", "social proof" | none | `apps/testimonials.md` |
 | booking | Weekly availability and a page where people pick a time | "scheduling", "Calendly", "book a call" | none (Resend optional) | `apps/booking.md` |
 | link-shortener | Short links with click stats and QR codes | "short links", "Bitly", "QR code", "click tracking" | none | `apps/link-shortener.md` |
+| link-in-bio | Public page of links with themes and click stats | "link in bio", "Linktree", "profile links page" | none (R2) | `apps/link-in-bio.md` |
+| email-signature | Builds copy-paste HTML email signatures, with an optional team mode | "email signature", "signature generator" | none (R2) | `apps/email-signature.md` |
 
 ### Files and payments
 
@@ -49,6 +51,7 @@ Plan requirement: a ChatGPT plan with Sites access (Plus, Pro, or an eligible wo
 | file-transfer | Upload files and share an expiring, optional-password link | "send big files", "WeTransfer", "share files" | none (R2) | `apps/file-transfer.md` |
 | invoicing | Invoices with a public pay page and Stripe Checkout | "invoice clients", "get paid", "billing" | Stripe | `apps/invoicing.md` |
 | digital-storefront | Sell PDFs, templates, or downloads with Stripe | "sell digital products", "Gumroad", "sell a template" | Stripe (R2) | `apps/digital-storefront.md` |
+| doc-sharing | Share a PDF through a trackable link; see who opened it and time per page | "pitch deck tracking", "DocSend", "who opened my PDF" | none (R2) | `apps/doc-sharing.md` |
 
 ### AI and web-data tools (free-tier APIs)
 
@@ -64,6 +67,17 @@ Plan requirement: a ChatGPT plan with Sites access (Plus, Pro, or an eligible wo
 | seo-audit | PageSpeed scores and on-page SEO checklist with a fix list | "SEO audit", "page speed", "check my site" | PageSpeed key (LLM optional) | `apps/seo-audit.md` |
 | receipt-tracker | Reads receipt photos into an expense log with CSV export | "expenses", "receipts", "Expensify" | Gemini key | `apps/receipt-tracker.md` |
 | feedback-analyzer | Groups reviews or survey answers into themes with sentiment | "analyze reviews", "survey responses", "customer feedback themes" | LLM | `apps/feedback-analyzer.md` |
+| snippet-library | Reusable text and prompts with variables, searchable by ChatGPT through MCP | "canned replies", "text snippets", "prompt library", "TextExpander" | none (LLM optional) | `apps/snippet-library.md` |
+| review-reply-drafter | Paste a customer review, get three reply drafts in the business's voice | "reply to reviews", "Google review replies", "리뷰 답글" | LLM key | `apps/review-reply-drafter.md` |
+
+### Korean-market tools (UI in Korean)
+
+| App | What it does | Use when the user says | Needs | Spec |
+| --- | --- | --- | --- | --- |
+| group-order-ledger | Turns pasted KakaoTalk group-order chat into an order table and matches deposits (records only) | "공동구매 정리", "카톡 주문", "입금 확인" | LLM key | `apps/group-order-ledger.md` |
+| order-sheet-converter | Merges marketplace order sheets into a courier upload file, in the browser | "스마트스토어 주문 엑셀", "택배 양식", "송장 입력" | none | `apps/order-sheet-converter.md` |
+| campaign-tracker | Tracks sponsored-campaign deadlines with a calendar feed (체험단, brand deals) | "체험단 일정", "협찬 관리", "sponsorship tracker" | none (LLM optional) | `apps/campaign-tracker.md` |
+| club-ledger | Dues, attendance, fines, and ranking for clubs; records only, never handles money | "회비 관리", "동호회 총무", "모임 장부" | none | `apps/club-ledger.md` |
 
 ### Team and agent tools
 
