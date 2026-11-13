@@ -1,8 +1,3 @@
----
-name: sites-issue-tracker
-description: Build and publish a Linear-style issue tracker on ChatGPT Sites in one pass, with a keyboard-friendly board and MCP tools for agents. Use when the user asks for a Linear-like tracker, kanban issue board, or task tracker hosted on Sites.
----
-
 # Issue Tracker on Sites
 
 Build a working tracker in one pass without stopping to ask about product details. Use the official `sites` skill for project setup, registration, dependencies, build, packaging, and publishing. This skill only defines what to build. If the Sites skill or Sites tools are unavailable, tell the user and stop.

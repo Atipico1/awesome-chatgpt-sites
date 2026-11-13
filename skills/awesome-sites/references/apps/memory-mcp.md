@@ -1,8 +1,3 @@
----
-name: sites-memory-mcp
-description: Build and publish a personal memory MCP server on ChatGPT Sites so ChatGPT and Codex can save and recall notes across conversations, with a small web UI for review. Use when the user wants a remote memory, notes, or knowledge MCP server hosted on Sites.
----
-
 # Memory MCP on Sites
 
 Build a working MCP server and its web UI in one pass. Use the official `sites` skill for project setup, registration, dependencies, build, packaging, publishing, and plugin connection. This skill only defines what to build. If the Sites skill or Sites tools are unavailable, tell the user and stop.
